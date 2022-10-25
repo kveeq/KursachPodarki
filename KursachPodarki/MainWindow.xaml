@@ -1,0 +1,25 @@
+﻿<Window x:Class="KursachPodarki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursachPodarki"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1280">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="310"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Background="#FF170F46" Width="310" HorizontalAlignment="Center">
+
+        </StackPanel>
+
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                <GradientStop Color="#130D3A" />
+                <GradientStop Offset="1" Color="#432DD4" />
+            </LinearGradientBrush>
+        </Grid.Background>
+    </Grid>
+</Window>
