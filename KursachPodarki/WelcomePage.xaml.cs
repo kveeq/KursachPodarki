@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace KursachPodarki
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для WelcomePage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class WelcomePage : Page
     {
-        public MainWindow()
+        public WelcomePage()
         {
             InitializeComponent();
-        }
-
-        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
-        {
-
         }
     }
 }

@@ -74,7 +74,7 @@
                 Content="Войти"
                 Foreground="White"
                 Style="{StaticResource MaterialDesignOutlinedButton}"
-                ToolTip="MaterialDesignOutlinedButton" />
+                ToolTip="MaterialDesignOutlinedButton" Cursor="Hand" Click="Login_Btn_Click" />
         </StackPanel>
 
         <Grid.Background>

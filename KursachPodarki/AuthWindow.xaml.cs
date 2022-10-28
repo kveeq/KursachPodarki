@@ -36,5 +36,12 @@ namespace KursachPodarki
             Old_Tb.Visibility = Visibility.Collapsed;
             FIO_Tb.Visibility = Visibility.Collapsed;
         }
+
+        private void Login_Btn_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new MainWindow();
+            window.Show();
+            this.Close();
+        }
     }
 }
